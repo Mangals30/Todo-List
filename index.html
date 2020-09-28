@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+  <header>
+    <h1>To do App</h1>
+  </header>
+  <main>
+  <h2 id="todo-left"></h2>
+  <input type="text" name="search-todo" id="search-todo" placeholder="Search todo">
+  <label class="checkbox">Hide Completed
+    <input type="checkbox" name="hideCompleted" id="hide-completed">
+    <span class="checkmark"></span>
+  </label>
+  
+  <div id="todos"></div>
+  <form id="todo-form">
+    <input type="text" name="addTodo" id="add-todo">
+    <button type="submit" id="todo-button">Add Todo</button>
+  </form>
+  <div id="error-msg"></div>
+</main>
+</div>
+<footer>
+  <p>Copyrights&copy;2020, Mangalam Krishnan</p>
+</footer>
+
+  <script src="./uuid.js"></script>
+  <script src="./todo-app.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
